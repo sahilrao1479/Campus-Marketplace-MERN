@@ -1,0 +1,86 @@
+[36mvite v8.2.0 [32mbuilding client environment for production...[36m[39m
+[2Ktransforming...✓ 1901 modules transformed.
+[31m✗[39m Build failed in 510ms
+[31merror during build:
+[31mBuild failed with 9 errors:
+
+[31m[UNRESOLVED_IMPORT] [0mCould not resolve '../../../context/AuthContext' in src/pages/dashboard/Dashboard.jsx
+   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/dashboard/Dashboard.jsx:2:25 [38;5;246m][0m
+   [38;5;246m│[0m
+ [38;5;246m2 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249mu[0m[38;5;249ms[0m[38;5;249me[0m[38;5;249mA[0m[38;5;249mu[0m[38;5;249mt[0m[38;5;249mh[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m"../../../context/AuthContext"[38;5;249m;[0m
+ [38;5;240m  │[0m                         ───────────────┬──────────────  
+ [38;5;240m  │[0m                                        ╰──────────────── Module not found.
+ [38;5;240m  │[0m 
+ [38;5;240m  │[0m [38;5;115mHelp[0m: 'src/pages/dashboard/Dashboard.jsx' is imported by the following path:
+ [38;5;240m  │[0m         - src/pages/dashboard/Dashboard.jsx
+ [38;5;240m  │[0m         - src/App.jsx
+ [38;5;240m  │[0m         - src/main.jsx
+ [38;5;240m  │[0m         - index.html
+[38;5;246m───╯[0m
+
+[31m[UNRESOLVED_IMPORT] [0mCould not resolve '../../../context/AuthContext' in src/pages/auth/Login.jsx
+   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/auth/Login.jsx:2:25 [38;5;246m][0m
+   [38;5;246m│[0m
+ [38;5;246m2 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249mu[0m[38;5;249ms[0m[38;5;249me[0m[38;5;249mA[0m[38;5;249mu[0m[38;5;249mt[0m[38;5;249mh[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m"../../../context/AuthContext"[38;5;249m;[0m
+ [38;5;240m  │[0m                         ───────────────┬──────────────  
+ [38;5;240m  │[0m                                        ╰──────────────── Module not found.
+ [38;5;240m  │[0m 
+ [38;5;240m  │[0m [38;5;115mHelp[0m: 'src/pages/auth/Login.jsx' is imported by the following path:
+ [38;5;240m  │[0m         - src/pages/auth/Login.jsx
+ [38;5;240m  │[0m         - src/App.jsx
+ [38;5;240m  │[0m         - src/main.jsx
+ [38;5;240m  │[0m         - index.html
+[38;5;246m───╯[0m
+
+[31m[UNRESOLVED_IMPORT] [0mCould not resolve '../../../context/AuthContext' in src/pages/auth/VerifyOtp.jsx
+   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/auth/VerifyOtp.jsx:2:25 [38;5;246m][0m
+   [38;5;246m│[0m
+ [38;5;246m2 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249mu[0m[38;5;249ms[0m[38;5;249me[0m[38;5;249mA[0m[38;5;249mu[0m[38;5;249mt[0m[38;5;249mh[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m"../../../context/AuthContext"[38;5;249m;[0m
+ [38;5;240m  │[0m                         ───────────────┬──────────────  
+ [38;5;240m  │[0m                                        ╰──────────────── Module not found.
+ [38;5;240m  │[0m 
+ [38;5;240m  │[0m [38;5;115mHelp[0m: 'src/pages/auth/VerifyOtp.jsx' is imported by the following path:
+ [38;5;240m  │[0m         - src/pages/auth/VerifyOtp.jsx
+ [38;5;240m  │[0m         - src/App.jsx
+ [38;5;240m  │[0m         - src/main.jsx
+ [38;5;240m  │[0m         - index.html
+[38;5;246m───╯[0m
+
+[31m[UNRESOLVED_IMPORT] [0mCould not resolve '../../../context/AuthContext' in src/pages/auth/Register.jsx
+   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/auth/Register.jsx:2:25 [38;5;246m][0m
+   [38;5;246m│[0m
+ [38;5;246m2 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249mu[0m[38;5;249ms[0m[38;5;249me[0m[38;5;249mA[0m[38;5;249mu[0m[38;5;249mt[0m[38;5;249mh[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m"../../../context/AuthContext"[38;5;249m;[0m
+ [38;5;240m  │[0m                         ───────────────┬──────────────  
+ [38;5;240m  │[0m                                        ╰──────────────── Module not found.
+ [38;5;240m  │[0m 
+ [38;5;240m  │[0m [38;5;115mHelp[0m: 'src/pages/auth/Register.jsx' is imported by the following path:
+ [38;5;240m  │[0m         - src/pages/auth/Register.jsx
+ [38;5;240m  │[0m         - src/App.jsx
+ [38;5;240m  │[0m         - src/main.jsx
+ [38;5;240m  │[0m         - index.html
+[38;5;246m───╯[0m
+
+[31m[UNRESOLVED_IMPORT] [0mCould not resolve '../../context/AuthContext' in src/pages/ProductDetails.jsx
+   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/ProductDetails.jsx:4:25 [38;5;246m][0m
+   [38;5;246m│[0m
+ [38;5;246m4 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249mu[0m[38;5;249ms[0m[38;5;249me[0m[38;5;249mA[0m[38;5;249mu[0m[38;5;249mt[0m[38;5;249mh[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m"../../context/AuthContext"[38;5;249m;[0m
+ [38;5;240m  │[0m                         ─────────────┬─────────────  
+ [38;5;240m  │[0m                                      ╰─────────────── Module not found.
+ [38;5;240m  │[0m 
+ [38;5;240m  │[0m [38;5;115mHelp[0m: 'src/pages/ProductDetails.jsx' is imported by the following path:
+ [38;5;240m  │[0m         - src/pages/ProductDetails.jsx
+ [38;5;240m  │[0m         - src/App.jsx
+ [38;5;240m  │[0m         - src/main.jsx
+ [38;5;240m  │[0m         - index.html
+[38;5;246m───╯[0m
+
+...[31m
+    at aggregateBindingErrorsIntoJsError (file:///c:/Users/HP/OneDrive/Desktop/Projects/bee%20fi/frontend/node_modules/rolldown/dist/shared/error-BzLGqhSQ.mjs:48:18)
+    at unwrapBindingResult (file:///c:/Users/HP/OneDrive/Desktop/Projects/bee%20fi/frontend/node_modules/rolldown/dist/shared/error-BzLGqhSQ.mjs:18:128)
+    at #build (file:///c:/Users/HP/OneDrive/Desktop/Projects/bee%20fi/frontend/node_modules/rolldown/dist/shared/rolldown-I5b6h5Km.mjs:132:34)
+    at async buildEnvironment (file:///c:/Users/HP/OneDrive/Desktop/Projects/bee%20fi/frontend/node_modules/vite/dist/node/chunks/node.js:33669:66)
+    at async Object.build (file:///c:/Users/HP/OneDrive/Desktop/Projects/bee%20fi/frontend/node_modules/vite/dist/node/chunks/node.js:34091:19)
+    at async Object.buildApp (file:///c:/Users/HP/OneDrive/Desktop/Projects/bee%20fi/frontend/node_modules/vite/dist/node/chunks/node.js:34088:153)
+    at async CAC.<anonymous> (file:///c:/Users/HP/OneDrive/Desktop/Projects/bee%20fi/frontend/node_modules/vite/dist/node/cli.js:776:3) {
+  errors: [Getter/Setter]
+}[39m
