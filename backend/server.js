@@ -25,6 +25,8 @@ connectDB();
 const app = express();
 const httpServer = createServer(app);
 
+
+
 // Socket.io setup
 const io = new Server(httpServer, {
     cors: {
@@ -69,7 +71,7 @@ app.use('/uploads', express.static('uploads'));
 // Rate Limiting
 const limiter = rateLimit({
     windowMs: 15 * 60 * 1000, // 15 mins
-    max: 100, // limit each IP to 100 requests per window
+    max: 100, 
 });
 app.use('/api/', limiter);
 
@@ -101,3 +103,23 @@ const PORT = process.env.PORT || 5000;
 httpServer.listen(PORT, () => {
     console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
